@@ -14,35 +14,6 @@ configs:
   Release: release
 
 targets:
-  StandbyApp:
-    type: application
-    platform: iOS
-    deploymentTarget: "15.0"
-    sources:
-      - path: iOSApp/Sources
-      - path: iOSApp/Resources
-        type: folder
-        optional: true
-    info:
-      path: iOSApp/Resources/Info.plist
-      properties:
-        CFBundleName: StandbyApp
-        CFBundleShortVersionString: 1.0
-        CFBundleVersion: 1
-        UILaunchStoryboardName: LaunchScreen
-        UISupportedInterfaceOrientations: [UIInterfaceOrientationPortrait]
-        LSRequiresIPhoneOS: YES
-        UIRequiresFullScreen: YES
-        NSHealthShareUsageDescription: "Heart rate is used to send vitals from Apple Watch."
-        NSHealthUpdateUsageDescription: "App updates Health data as part of workouts."
-    entitlements:
-      path: iOSApp/Entitlements/StandbyApp.entitlements
-    settings:
-      base:
-        PRODUCT_BUNDLE_IDENTIFIER: com.standby.watchapp.ios
-        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
-    dependencies:
-      - target: StandbyWatchApp
 
   StandbyWatchApp:
     type: application

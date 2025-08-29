@@ -13,7 +13,16 @@ final class RecordingManager: NSObject {
 		do {
 			try session.setCategory(.playAndRecord, mode: .default, options: [.duckOthers])
 			try session.setActive(true)
-			let granted = await AVAudioApplication.requestRecordPermission()
+			let granted: Bool
+			if #available(watchOS 10.0, *) {
+				granted = await AVAudioApplication.requestRecordPermission()
+			} else {
+				granted = await withCheckedContinuation { (continuation: CheckedContinuation<Bool, Never>) in
+					AVAudioSession.sharedInstance().requestRecordPermission { ok in
+						continuation.resume(returning: ok)
+					}
+				}
+			}
 			guard granted else { return false }
 
 			let url = FileManager.default.temporaryDirectory.appendingPathComponent("rec_\(UUID().uuidString).m4a")

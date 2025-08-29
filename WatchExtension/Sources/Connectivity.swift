@@ -12,12 +12,12 @@ final class ConnectivityManager: NSObject {
 	}
 
 	func sendVitals(_ vitals: [String: Any]) {
-		guard WCSession.default.isReachable || WCSession.default.isPaired else { return }
+		// transferUserInfo queues delivery; no need to check reachability/paired on watchOS
 		WCSession.default.transferUserInfo(vitals)
 	}
 
 	func sendAudioFile(url: URL) {
-		guard WCSession.default.isPaired else { return }
+		// transferFile also queues delivery; isPaired is unavailable on watchOS
 		WCSession.default.transferFile(url, metadata: ["type": "audio", "createdAt": Date().timeIntervalSince1970])
 	}
 }
