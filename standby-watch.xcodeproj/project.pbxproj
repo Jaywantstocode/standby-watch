@@ -1,0 +1,679 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		69F252C02E62A68400B42672 /* standby-watch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 69F252BF2E62A68400B42672 /* standby-watch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		69F252C12E62A68400B42672 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69F252B32E62A68400B42672 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69F252BE2E62A68400B42672;
+			remoteInfo = "standby-watch Watch App";
+		};
+		69F252CF2E62A68500B42672 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69F252B32E62A68400B42672 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69F252BE2E62A68400B42672;
+			remoteInfo = "standby-watch Watch App";
+		};
+		69F252D92E62A68500B42672 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69F252B32E62A68400B42672 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69F252BE2E62A68400B42672;
+			remoteInfo = "standby-watch Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		69F252E52E62A68500B42672 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				69F252C02E62A68400B42672 /* standby-watch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		69F252B92E62A68400B42672 /* standby-watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "standby-watch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		69F252BF2E62A68400B42672 /* standby-watch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "standby-watch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		69F252CE2E62A68500B42672 /* standby-watch Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "standby-watch Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		69F252D82E62A68500B42672 /* standby-watch Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "standby-watch Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		69F252C32E62A68400B42672 /* standby-watch Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "standby-watch Watch App";
+			sourceTree = "<group>";
+		};
+		69F252D12E62A68500B42672 /* standby-watch Watch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "standby-watch Watch AppTests";
+			sourceTree = "<group>";
+		};
+		69F252DB2E62A68500B42672 /* standby-watch Watch AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "standby-watch Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		69F252BC2E62A68400B42672 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69F252CB2E62A68500B42672 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69F252D52E62A68500B42672 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		69F252B22E62A68400B42672 = {
+			isa = PBXGroup;
+			children = (
+				69F252C32E62A68400B42672 /* standby-watch Watch App */,
+				69F252D12E62A68500B42672 /* standby-watch Watch AppTests */,
+				69F252DB2E62A68500B42672 /* standby-watch Watch AppUITests */,
+				69F252BA2E62A68400B42672 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		69F252BA2E62A68400B42672 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				69F252B92E62A68400B42672 /* standby-watch.app */,
+				69F252BF2E62A68400B42672 /* standby-watch Watch App.app */,
+				69F252CE2E62A68500B42672 /* standby-watch Watch AppTests.xctest */,
+				69F252D82E62A68500B42672 /* standby-watch Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		69F252B82E62A68400B42672 /* standby-watch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69F252E62E62A68500B42672 /* Build configuration list for PBXNativeTarget "standby-watch" */;
+			buildPhases = (
+				69F252B72E62A68400B42672 /* Resources */,
+				69F252E52E62A68500B42672 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69F252C22E62A68400B42672 /* PBXTargetDependency */,
+			);
+			name = "standby-watch";
+			packageProductDependencies = (
+			);
+			productName = "standby-watch";
+			productReference = 69F252B92E62A68400B42672 /* standby-watch.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		69F252BE2E62A68400B42672 /* standby-watch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69F252E22E62A68500B42672 /* Build configuration list for PBXNativeTarget "standby-watch Watch App" */;
+			buildPhases = (
+				69F252BB2E62A68400B42672 /* Sources */,
+				69F252BC2E62A68400B42672 /* Frameworks */,
+				69F252BD2E62A68400B42672 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				69F252C32E62A68400B42672 /* standby-watch Watch App */,
+			);
+			name = "standby-watch Watch App";
+			packageProductDependencies = (
+			);
+			productName = "standby-watch Watch App";
+			productReference = 69F252BF2E62A68400B42672 /* standby-watch Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		69F252CD2E62A68500B42672 /* standby-watch Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69F252E92E62A68500B42672 /* Build configuration list for PBXNativeTarget "standby-watch Watch AppTests" */;
+			buildPhases = (
+				69F252CA2E62A68500B42672 /* Sources */,
+				69F252CB2E62A68500B42672 /* Frameworks */,
+				69F252CC2E62A68500B42672 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69F252D02E62A68500B42672 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				69F252D12E62A68500B42672 /* standby-watch Watch AppTests */,
+			);
+			name = "standby-watch Watch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "standby-watch Watch AppTests";
+			productReference = 69F252CE2E62A68500B42672 /* standby-watch Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		69F252D72E62A68500B42672 /* standby-watch Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69F252EC2E62A68500B42672 /* Build configuration list for PBXNativeTarget "standby-watch Watch AppUITests" */;
+			buildPhases = (
+				69F252D42E62A68500B42672 /* Sources */,
+				69F252D52E62A68500B42672 /* Frameworks */,
+				69F252D62E62A68500B42672 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69F252DA2E62A68500B42672 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				69F252DB2E62A68500B42672 /* standby-watch Watch AppUITests */,
+			);
+			name = "standby-watch Watch AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "standby-watch Watch AppUITests";
+			productReference = 69F252D82E62A68500B42672 /* standby-watch Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		69F252B32E62A68400B42672 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					69F252B82E62A68400B42672 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					69F252BE2E62A68400B42672 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					69F252CD2E62A68500B42672 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 69F252BE2E62A68400B42672;
+					};
+					69F252D72E62A68500B42672 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 69F252BE2E62A68400B42672;
+					};
+				};
+			};
+			buildConfigurationList = 69F252B62E62A68400B42672 /* Build configuration list for PBXProject "standby-watch" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 69F252B22E62A68400B42672;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 69F252BA2E62A68400B42672 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				69F252B82E62A68400B42672 /* standby-watch */,
+				69F252BE2E62A68400B42672 /* standby-watch Watch App */,
+				69F252CD2E62A68500B42672 /* standby-watch Watch AppTests */,
+				69F252D72E62A68500B42672 /* standby-watch Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		69F252B72E62A68400B42672 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69F252BD2E62A68400B42672 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69F252CC2E62A68500B42672 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69F252D62E62A68500B42672 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		69F252BB2E62A68400B42672 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69F252CA2E62A68500B42672 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69F252D42E62A68500B42672 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		69F252C22E62A68400B42672 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69F252BE2E62A68400B42672 /* standby-watch Watch App */;
+			targetProxy = 69F252C12E62A68400B42672 /* PBXContainerItemProxy */;
+		};
+		69F252D02E62A68500B42672 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69F252BE2E62A68400B42672 /* standby-watch Watch App */;
+			targetProxy = 69F252CF2E62A68500B42672 /* PBXContainerItemProxy */;
+		};
+		69F252DA2E62A68500B42672 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69F252BE2E62A68400B42672 /* standby-watch Watch App */;
+			targetProxy = 69F252D92E62A68500B42672 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		69F252E02E62A68500B42672 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 5FVQ8M3R4R;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		69F252E12E62A68500B42672 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 5FVQ8M3R4R;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		69F252E32E62A68500B42672 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "standby-watch Watch App/standby-watch Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5FVQ8M3R4R;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "standby-watch-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "standby-watch";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "心拍数などのヘルスデータの読み取りに使用します。";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "短い音声クリップの録音に使用します。";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "standby.standby-watch.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Debug;
+		};
+		69F252E42E62A68500B42672 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "standby-watch Watch App/standby-watch Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5FVQ8M3R4R;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "standby-watch-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "standby-watch";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "心拍数などのヘルスデータの読み取りに使用します。";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "短い音声クリップの録音に使用します。";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "standby.standby-watch.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Release;
+		};
+		69F252E72E62A68500B42672 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5FVQ8M3R4R;
+				INFOPLIST_KEY_CFBundleDisplayName = "standby-watch";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "standby.standby-watch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		69F252E82E62A68500B42672 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5FVQ8M3R4R;
+				INFOPLIST_KEY_CFBundleDisplayName = "standby-watch";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "standby.standby-watch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		69F252EA2E62A68500B42672 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5FVQ8M3R4R;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "standby.standby-watch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/standby-watch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/standby-watch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Debug;
+		};
+		69F252EB2E62A68500B42672 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5FVQ8M3R4R;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "standby.standby-watch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/standby-watch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/standby-watch Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Release;
+		};
+		69F252ED2E62A68500B42672 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5FVQ8M3R4R;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "standby.standby-watch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "standby-watch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Debug;
+		};
+		69F252EE2E62A68500B42672 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5FVQ8M3R4R;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "standby.standby-watch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "standby-watch Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		69F252B62E62A68400B42672 /* Build configuration list for PBXProject "standby-watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69F252E02E62A68500B42672 /* Debug */,
+				69F252E12E62A68500B42672 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69F252E22E62A68500B42672 /* Build configuration list for PBXNativeTarget "standby-watch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69F252E32E62A68500B42672 /* Debug */,
+				69F252E42E62A68500B42672 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69F252E62E62A68500B42672 /* Build configuration list for PBXNativeTarget "standby-watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69F252E72E62A68500B42672 /* Debug */,
+				69F252E82E62A68500B42672 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69F252E92E62A68500B42672 /* Build configuration list for PBXNativeTarget "standby-watch Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69F252EA2E62A68500B42672 /* Debug */,
+				69F252EB2E62A68500B42672 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69F252EC2E62A68500B42672 /* Build configuration list for PBXNativeTarget "standby-watch Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69F252ED2E62A68500B42672 /* Debug */,
+				69F252EE2E62A68500B42672 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 69F252B32E62A68400B42672 /* Project object */;
+}
